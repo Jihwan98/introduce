@@ -61,4 +61,4 @@
 ## 아두이노와 라즈베리파이를 통한 각종 센서 제어 프로그램 작성
 - 아두이노와 라즈베리파이를 통해 각종 센서 제어 프로그램을 작성했습니다.
 - 초음파센서를 통한 거리측정  
-  <img src="https://user-images.githubusercontent.com/76936390/182319804-eb929b56-0ca1-4f7b-932e-180d8c86c715.png">
+  <img src="https://user-images.githubusercontent.com/76936390/182319804-eb929b56-0ca1-4f7b-932e-180d8c86c715.png" width="50%">
