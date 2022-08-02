@@ -8,10 +8,12 @@
 
 ## 파이썬 독학
 - 제일 처음 파이썬을 처음 접하면서 기본적인 문법공부와 함께 간단한 프로젝트를 개인적으로 수행해보았습니다.
+
 ### 워드 클라우드 만들기  
 - wordcloud 라이브러리를 이용하여 카카오톡 단톡방의 내용으로 워드 클라우드를 만들어 보았습니다.  
 <img src="https://user-images.githubusercontent.com/76936390/182305686-d5e49014-dacc-4576-9429-5fa910ae90a1.png" width="30%">  
 - 친구들과의 단톡방의 워드 클라우드 결과입니다.  
+
 ### 웹 스크래핑
 - BeautifulSoup과 selenium을 라이브러리를 활용하여, 검색어를 통해 기사나 이미지를 스크랩해오는 기능을 구현했습니다.
 <img src="https://user-images.githubusercontent.com/76936390/182307303-8bb5661c-219b-43a1-a901-20e9052a2ff1.PNG" width="100%">  
