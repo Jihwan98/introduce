@@ -26,9 +26,9 @@
 - 그리고 데이터 분석을 하기 위한 방법에 대해서도 배우고, 데이터 전처리의 다양한 방법들에 대해서도 배웠습니다.
 ### 신용등급 예측 모델 생성하기
 - 신용카드 사용자의 정보들을 모은 데이터를 통해 신용등급을 예측하는 모델을 생성해보았습니다.
-- [소스코드 : 신용등급 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/midterm_final.ipynb)
+- 소스코드 : [신용등급 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/midterm_final.ipynb)
 
-
+### 화재발생여부 예측 
 
 
 ## 아두이노와 라즈베리파이를 통한 각종 센서 제어 프로그램 작성
