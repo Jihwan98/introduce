@@ -35,5 +35,5 @@
 - 소스코드 : [화재발생여부 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/final_report.ipynb)
 - 코드 설명 영상 링크 : [유튜브 링크](https://youtu.be/weMbFrKvD-8)  
   <img src="https://user-images.githubusercontent.com/76936390/182313732-94fc924a-24b3-45f7-8454-3d5e73e04408.png" width="50%">
-- 데이터 분석 일부 예시
+- 데이터 분석 일부 예시 (건물구조와 건물용도분류명에 따른 화재발생여부 시각화)
 ## 아두이노와 라즈베리파이를 통한 각종 센서 제어 프로그램 작성
