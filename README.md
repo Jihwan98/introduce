@@ -26,12 +26,14 @@
 - 그리고 데이터 분석을 하기 위한 방법에 대해서도 배우고, 데이터 전처리의 다양한 방법들에 대해서도 배웠습니다.
 ### 신용등급 예측 모델 생성하기
 - 신용카드 사용자의 정보들을 모은 데이터를 통해 신용등급을 예측하는 모델을 생성해보았습니다.
-- 소스코드 : [신용등급 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/midterm_final.ipynb)
+- 소스코드 : [신용등급 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/midterm_final.ipynb)  
+  <img src="https://user-images.githubusercontent.com/76936390/182314147-b0697f87-e4a8-43e2-916f-feeab08340d3.png" width="50%">
+- 데이터 분석 일부 예시
 
 ### 화재발생여부 예측 
 - 건물특성과 주변 환경 데이터를 통해 각 건물들의 화재발생여부를 예측하는 모델을 생성하는 것이 목표입니다.
 - 소스코드 : [화재발생여부 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/final_report.ipynb)
 - 코드 설명 영상 링크 : [유튜브 링크](https://youtu.be/weMbFrKvD-8)  
-  <img src="https://user-images.githubusercontent.com/76936390/182313732-94fc924a-24b3-45f7-8454-3d5e73e04408.png">
+  <img src="https://user-images.githubusercontent.com/76936390/182313732-94fc924a-24b3-45f7-8454-3d5e73e04408.png" width="50%">
 - 데이터 분석 일부 예시
 ## 아두이노와 라즈베리파이를 통한 각종 센서 제어 프로그램 작성
