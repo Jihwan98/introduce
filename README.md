@@ -40,9 +40,12 @@
 ### 코로나 확진자 수, 유동인구, 배달 횟수 데이터를 통한 가설 수립 및 시각화
 - 유동인구 데이터를 통해 가설을 세운 후 시각화 해보는 작업을 진행해보았습니다.
 - 코로나 발생 이후로 유동인구가 줄었을 것이라는 가설과 코로나 확진자가 많이 발생한 지역은 적게 발생한 지역에 비해 배달 건 수가 더 많이 증가할 것이라는 가설로 진행했습니다.
-- 소스코드 : [유동인구 데이터를 통한 시각화](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/vz_report_1.ipynb)
-  <img src="https://user-images.githubusercontent.com/76936390/182315771-5025eeee-94cf-4792-a8ea-97158b2adc1a.png">
-  <img src="https://user-images.githubusercontent.com/76936390/182315251-22445d41-5c52-4a6d-9d0c-c685e66d71ab.png">
-  <img src="https://user-images.githubusercontent.com/76936390/182315982-fbbc0e97-dfb5-4966-a9ce-15b5b386a4d7.png">
+- 소스코드 : [유동인구 데이터를 통한 시각화](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/vz_report_1.ipynb)  
+  <img src="https://user-images.githubusercontent.com/76936390/182315771-5025eeee-94cf-4792-a8ea-97158b2adc1a.png">  
+- 서울 확진자 수 추이와 서울의 유동인구 데이터 시각화
+  <img src="https://user-images.githubusercontent.com/76936390/182315251-22445d41-5c52-4a6d-9d0c-c685e66d71ab.png">  
+- 2020년 6/30일 까지의 지역별 누적 확진자 수 시각화
+  <img src="https://user-images.githubusercontent.com/76936390/182315982-fbbc0e97-dfb5-4966-a9ce-15b5b386a4d7.png">  
+- 지역별 월 별 배달 횟수 시각화
 
 ## 아두이노와 라즈베리파이를 통한 각종 센서 제어 프로그램 작성
