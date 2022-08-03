@@ -23,9 +23,9 @@
 - 모델으로는 Inception-ResNet V2를 사용했습니다.
 - Grad-CAM을 통해서 모델이 사진에서 특징을 잘 파악하는지 확인해 보았습니다.
 - 모델 설명  
-  <img src="https://user-images.githubusercontent.com/76936390/182531130-f267abfc-4341-4a12-83fd-6e5c19d8cc04.png" width="50%">
-- Grad-CAM
-  <img src="https://user-images.githubusercontent.com/76936390/182531477-8ae96565-55ea-4ca0-9522-f8af8b49aacc.png" width="50%">
+  <img src="https://user-images.githubusercontent.com/76936390/182531130-f267abfc-4341-4a12-83fd-6e5c19d8cc04.png" width="50%">  
+- Grad-CAM  
+  <img src="https://user-images.githubusercontent.com/76936390/182531477-8ae96565-55ea-4ca0-9522-f8af8b49aacc.png" width="50%">  
   <img src="https://user-images.githubusercontent.com/76936390/182531567-37417878-6706-46f1-b762-089bfa127b1a.png" width="50%">  
 - 소스코드 : [음식 구분 모델 구성 및 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/final_project/%EB%B0%95%EC%A7%80%ED%99%98/food_v2/500_drop.ipynb)
 
