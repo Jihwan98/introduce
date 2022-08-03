@@ -14,6 +14,24 @@
 - 기본적으로 언어는 큰 틀에서는 비슷하고 세부적인 부분들만 바뀐다고 생각하기 때문에, 검색과 공부를 통해 잘 모르는 언어도 충분히 구현할 수 있다고 생각합니다.
 
 # 진행해온 프로젝트
+## 딥러닝
+- 2021년 1학기에 머신러닝 과목을 통해서 머신러닝에 대해 배우고 구현해본 후, 2021년 2학기에 딥러닝 수업을 통해 딥러닝에 대해 배우면서 직접 구현해보았습니다.
+### 숫자 데이터 분류
+- 딥러닝의 기본인 Mnist 숫자 데이터를 통해 데이터를 분류하는 모델을 생성해 본 후, 직접 숫자를 쓰고 지인들을 통해 데이터를 모아서 직접 모은 데이터로 숫자를 분류하는 모델을 생성했습니다.
+- 이미지의 shape이 다 달랐고 아무렇게나 크기를 변경할 경우 이미지의 손실이 큰 경우가 있어 적절한 크기로 맞춰주었습니다.
+- 모델은 VGG16의 구조와 동일하게 사용하여 모델을 학습시켰습니다.
+- 모델을 학습 시킨 후, 모델의 중간층의 출력을 시각화 해보는 과정을 진행해보았습니다.
+- 또한, 모델의 필터와 input 이미지에 대한 모델이 지역적 특성을 잘 파악하는지 확인하기 위한 Class Activation Map(CAM)을 통해 시각화했습니다.
+- 중간층의 출력 시각화  
+<img src="https://user-images.githubusercontent.com/76936390/182525480-a3e2f811-6862-4c44-8ddf-ba061ab6de7d.png">  
+- 필터 이미지 시각화  
+<img src="https://user-images.githubusercontent.com/76936390/182525725-373fc1ad-3b6f-4364-8bf1-f21d1eb1fd7d.png">  
+- Class Activation Map(CAM)  
+<img src="https://user-images.githubusercontent.com/76936390/182525856-50e534f0-f5f8-4618-97a5-527191ddae49.png" width="30%">  
+- 모델 예측 결과  
+<img src="https://user-images.githubusercontent.com/76936390/182526119-8a0d2385-1635-4ed4-96fe-df36d02df521.png">  
+- 소스코드 : [모델 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/HW_main_6.ipynb)
+- 소스코드 : [모델 시각화](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/visualizing_my_model.ipynb)
 
 ## 데이터 과학
 - 데이터 과학 수업을 들으면서 수행했던 프로젝트들 입니다.
