@@ -23,14 +23,14 @@
 - 모델을 학습 시킨 후, 모델의 중간층의 출력을 시각화 해보는 과정을 진행해보았습니다.
 - 또한, 모델의 필터와 input 이미지에 대한 모델이 지역적 특성을 잘 파악하는지 확인하기 위한 Class Activation Map(CAM)을 통해 시각화했습니다.
 - 중간층의 출력 시각화  
-<img src="https://user-images.githubusercontent.com/76936390/182525480-a3e2f811-6862-4c44-8ddf-ba061ab6de7d.png">  
+  <img src="https://user-images.githubusercontent.com/76936390/182525480-a3e2f811-6862-4c44-8ddf-ba061ab6de7d.png">  
 - 필터 이미지 시각화  
-<img src="https://user-images.githubusercontent.com/76936390/182525725-373fc1ad-3b6f-4364-8bf1-f21d1eb1fd7d.png">  
+  <img src="https://user-images.githubusercontent.com/76936390/182525725-373fc1ad-3b6f-4364-8bf1-f21d1eb1fd7d.png" width="50%">  
 - Class Activation Map(CAM)  
-<img src="https://user-images.githubusercontent.com/76936390/182525856-50e534f0-f5f8-4618-97a5-527191ddae49.png" width="30%">  
+  <img src="https://user-images.githubusercontent.com/76936390/182525856-50e534f0-f5f8-4618-97a5-527191ddae49.png" width="30%">  
 - 모델 예측 결과  
-<img src="https://user-images.githubusercontent.com/76936390/182526119-8a0d2385-1635-4ed4-96fe-df36d02df521.png">  
-- 소스코드 : [모델 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/HW_main_6.ipynb)
+  <img src="https://user-images.githubusercontent.com/76936390/182526119-8a0d2385-1635-4ed4-96fe-df36d02df521.png">  
+- 소스코드 : [모델 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/HW_main_6.ipynb)  
 - 소스코드 : [모델 시각화](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/visualizing_my_model.ipynb)
 
 ## 데이터 과학
