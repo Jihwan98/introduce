@@ -16,6 +16,20 @@
 # 진행해온 프로젝트
 ## 딥러닝
 - 2021년 1학기에 머신러닝 과목을 통해서 머신러닝에 대해 배우고 구현해본 후, 2021년 2학기에 딥러닝 수업을 통해 딥러닝에 대해 배우면서 직접 구현해보았습니다.
+### 한국 음식 분류 모델 개발
+- 한국 음식 사진을 보고 분류하는 모델을 개발했습니다.
+- 이 서비스는 개인의 건강관리를 보조할 수 있는 헬스케어 서비스, SNS 등에 올라오는 사진들을 인식해 태그 명을 추천해주거나, 사진들을 자동으로 분류해 해당 단어로 검색할 때 노출이 되로록 하는 서비스, 음식 사진을 찍으면 자동으로 레시피를 찾아주는 서비스 등으로 활용 가능합니다.
+- 데이터는 AI HUB에서 제공해주는 한국 음식 사진 데이터를 사용했습니다.
+- 모델으로는 Inception-ResNet V2를 사용했습니다.
+- Grad-CAM을 통해서 모델이 사진에서 특징을 잘 파악하는지 확인해 보았습니다.
+- 모델 설명  
+  <img src="https://user-images.githubusercontent.com/76936390/182531130-f267abfc-4341-4a12-83fd-6e5c19d8cc04.png">
+- Grad-CAM
+  <img src="https://user-images.githubusercontent.com/76936390/182531477-8ae96565-55ea-4ca0-9522-f8af8b49aacc.png">
+  <img src="https://user-images.githubusercontent.com/76936390/182531567-37417878-6706-46f1-b762-089bfa127b1a.png">  
+- 소스코드 : [음식 구분 모델 구성 및 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/final_project/%EB%B0%95%EC%A7%80%ED%99%98/food_v2/500_drop.ipynb)
+
+
 
 ### Chest X-ray를 통한 정상환자, 박테리아성 폐렴, 바이러스성 폐렴, 코로나바이러스에 의한 폐렴 구분하는 인공지능 모델 개발
 - 코로나 바이러스가 유행하면서 실제 의료업계에서 상용화를 진행했던 Chest X-ray를 통해 코로나바이러스를 진단하는 인공지능 모델을 개발했습니다.
@@ -30,12 +44,12 @@
 - 이미지의 shape이 다 달랐고 아무렇게나 크기를 변경할 경우 이미지의 손실이 큰 경우가 있어 적절한 크기로 맞춰주었습니다.
 - 모델은 VGG16의 구조와 동일하게 사용하여 모델을 학습시켰습니다.
 - 모델을 학습 시킨 후, 모델의 중간층의 출력을 시각화 해보는 과정을 진행해보았습니다.
-- 또한, 모델의 필터와 input 이미지에 대한 모델이 지역적 특성을 잘 파악하는지 확인하기 위한 Class Activation Map(CAM)을 통해 시각화했습니다.
+- 또한, 모델의 필터와 input 이미지에 대한 모델이 지역적 특성을 잘 파악하는지 확인하기 위한 Grad-CAM을 통해 시각화했습니다.
 - 중간층의 출력 시각화  
   <img src="https://user-images.githubusercontent.com/76936390/182525480-a3e2f811-6862-4c44-8ddf-ba061ab6de7d.png">  
 - 필터 이미지 시각화  
   <img src="https://user-images.githubusercontent.com/76936390/182525725-373fc1ad-3b6f-4364-8bf1-f21d1eb1fd7d.png" width="50%">  
-- Class Activation Map(CAM)  
+- Grad-CAM  
   <img src="https://user-images.githubusercontent.com/76936390/182525856-50e534f0-f5f8-4618-97a5-527191ddae49.png" width="30%">  
 - 모델 예측 결과  
   <img src="https://user-images.githubusercontent.com/76936390/182526119-8a0d2385-1635-4ed4-96fe-df36d02df521.png">  
