@@ -56,6 +56,20 @@
 - 소스코드 : [모델 학습](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/HW_main_6.ipynb)  
 - 소스코드 : [모델 시각화](https://github.com/Jihwan98/2021-2/blob/main/DeepLearning/mnist_homework/visualizing_my_model.ipynb)
 
+## 영상 처리
+- 영상처리에 대한 수업을 들으면서 딥러닝에 필수적인 영상 전처리에 대해 개념을 이해하고 직접 구현해보았습니다.
+### 이미지 Augmentation Tool
+- 이미지를 넣어주면 자동으로 Augmentation을 해주는 Tool을 만들었습니다.
+- Label 이미지를 같이 넣어주면 Label 이미지도 같이 Augmentation이 되도록 진행했습니다.
+- 상하좌우 이동, 회전, 상하좌우 전환, 밝기 변환, Histogram Equalization, 색상변경 등등을 옵션으로 받아 Augmentation을 해주는 GUI를 생성했습니다.
+- Tool 소개
+  <img src="https://user-images.githubusercontent.com/76936390/182533104-6e765a16-043b-460d-a44d-b09abbd95c73.png">  
+- 일부 코드 소개
+  <img src="https://user-images.githubusercontent.com/76936390/182533291-c30dc1df-4bd8-4fd3-97ee-15fc65829bf5.png">  
+- Tool 실행 GUI 화면
+  <img src="https://user-images.githubusercontent.com/76936390/182533444-a8e05255-33d1-40ec-9d41-7d31dea8e16e.png">  
+- 소스 코드 : [GUI 실행 코드](https://github.com/Jihwan98/2021-2/tree/main/Image_Processing/final_project/IM2)
+
 ## 데이터 과학
 - 데이터 과학 수업을 들으면서 수행했던 프로젝트들 입니다.
 - 기본적으로 데이터 분석을 하기 위해 필요한 python의 라이브러리들에 대해서 배웠습니다.
