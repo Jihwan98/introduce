@@ -77,6 +77,7 @@
 - 데이터는 AI HUB에서 제공해주는 한국 음식 사진 데이터를 사용했습니다.
 - 모델으로는 Inception-ResNet V2를 사용했습니다.
 - Grad-CAM을 통해서 모델이 사진에서 특징을 잘 파악하는지 확인해 보았습니다.
+- accuracy – validation set : 0.93200, test set : 0.94171
 - 모델 설명  
   <img src="https://user-images.githubusercontent.com/76936390/182531130-f267abfc-4341-4a12-83fd-6e5c19d8cc04.png" width="50%">  
 - Grad-CAM  
