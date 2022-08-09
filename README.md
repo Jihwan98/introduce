@@ -63,6 +63,7 @@
 - 이 기능을 수행하기 위해 인공지능 모델 개발을 진행했습니다.
 - 이 기능은 소리 데이터 수집에 어려움이 있었고, 우리가 찾고자 하는 소리가 매우 다양하고 명확하지 않았기 때문에 이상치 탐지에 사용하는 Auto Encoder(AE)와 Variational Auto Encoder (VAE)를 사용하여 모델을 구성했습니다.
 - 소스 코드 : [위험상황 탐지 모델 코드](https://github.com/Jihwan98/abnormal_sound_detect)
+- accuracy : 98.35169678272366
 - 위험상황 감지 모델의 Input, Output Mel-Spectogram  
   <img src="https://user-images.githubusercontent.com/76936390/182794750-f2543906-1a6a-42c1-b1e9-9e5bca646e51.png" width="50%">
 
