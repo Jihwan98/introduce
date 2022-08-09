@@ -134,7 +134,7 @@
 - 소스코드 : [신용등급 예측. 전처리부터 모델 생성까지](https://github.com/Jihwan98/2021-1/blob/master/Data_Science/midterm_final.ipynb)  
 - 데이터 분석 일부 예시 (연간 소득 / 가족 규모 or 자녀의 수와 신용등급의 상관관계)  
   <img src="https://user-images.githubusercontent.com/76936390/182314147-b0697f87-e4a8-43e2-916f-feeab08340d3.png" width="50%">
-- DACON 대회 제출 스코어
+- DACON 대회 제출 스코어  
   <img src="https://user-images.githubusercontent.com/76936390/183641041-2a5ecb6c-afeb-4595-b300-2b440c66620f.PNG", width="50%">
 
 ### 화재발생여부 예측 
