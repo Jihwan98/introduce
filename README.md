@@ -29,7 +29,7 @@
 - 스마트 턴 테이블을 제작하는 프로젝트를 진행하였습니다.
 - 스마트 턴 테이블이란 특정 호출어에 반응하여 마치 사람이 고개를 돌리듯 음성이 전달되는 방향을 예측하여 그 방향으로 테이블을 돌려주는 인공지능 기반 스마트 음성 인식 테이블 입니다.
 - 스마트 턴 테이블 제작 프로토타입  
-  <img src="https://user-images.githubusercontent.com/76936390/182784995-09b9e007-2e53-4015-813b-7daebd1f4e54.png"><img src="https://user-images.githubusercontent.com/76936390/182788471-73dc96cf-6040-46f9-a56b-32e61ed48772.png">  
+  <img src="https://user-images.githubusercontent.com/76936390/182784995-09b9e007-2e53-4015-813b-7daebd1f4e54.png" height="50%"><img src="https://user-images.githubusercontent.com/76936390/182788471-73dc96cf-6040-46f9-a56b-32e61ed48772.png" height="50%">  
 
 - 간단한 소개 영상 : [유튜브 링크](https://youtu.be/EHf7p45LVyM)
 - 해당 프로젝트를 대표로 팀원들과 함께 만들어 나갔습니다.
