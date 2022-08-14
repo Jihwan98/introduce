@@ -67,7 +67,21 @@
 - 위험상황 감지 모델의 Input, Output Mel-Spectogram  
   <img src="https://user-images.githubusercontent.com/76936390/182794750-f2543906-1a6a-42c1-b1e9-9e5bca646e51.png" width="50%">
 
-
+## 기업 연계 프로젝트
+### 인피니트 헬스케어
+- 주제 : DICOM Viewer - Automatic Windowing Setting
+- DICOM 영상을 판독에 적합하도록 화면에 표시하기 위해서는 DICOM Header에 입력된 Windowing Level/Width 초기값을 적용하여 처리한다.
+- 하지만 해당값이 적절하지 않거나 누락된 경우가 있어 영상처리를 통한 최적의 Windowing 초기값을 계산해 적용할 필요가 있다.
+- GUI를 통해 DICOM 파일을 읽고, 마우스 드래그로 Windowing 값 변경 기능을 구현
+  <img src="https://user-images.githubusercontent.com/76936390/184538600-919c5f88-0466-4e44-b43a-d99ad1d20dd2.png">
+- 구현 코드 : [GUI, 마우스 드래그 코드](https://github.com/Jihwan98/2022-1/blob/main/G-Follow/dicom_gui2.py)
+- CDF(Cumulative Distribution Function)을 통해, 양 끝 2%에 해당되는 값을 기준으로 Windowing 값을 설정
+  <img src="https://user-images.githubusercontent.com/76936390/184538731-5c525a1a-8200-49c1-bd6a-ae248d02ce9e.png">
+- 이는 데이터마다 2%에 해당되는 값이 최적의 값일 수도 아닐 수도 있었기 때문에, 상호작용을 통해 Windowing 값을 정해주는 GUI를 구현
+- percent를 설정하고, 마우스 드래그를 통해 영역설정 하면 자동으로 Windowing 값을 변경하여 해당 이미지를 보여준다.
+  <img src="https://user-images.githubusercontent.com/76936390/184538831-b2161e50-9bf6-4302-840e-7b4aeccd6ce9.png">
+- 구현 코드 : [GUI를 통해 Windowing 값 세팅 코드](https://github.com/Jihwan98/2022-1/blob/main/G-Follow/dicom_gui6.py)
+- 구현 코드 : [기업 연계 프로젝트 전체 ](https://github.com/Jihwan98/2022-1/tree/main/G-Follow)
 
 ## 딥러닝
 - 2021년 1학기에 머신러닝 과목을 통해서 머신러닝에 대해 배우고 구현해본 후, 2021년 2학기에 딥러닝 수업을 통해 딥러닝에 대해 배우면서 직접 구현해보았습니다.
