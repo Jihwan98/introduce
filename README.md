@@ -1,4 +1,5 @@
 # 특기사항
+- (2023.05 ~) K-Digital Training Hackatone (진행 중)
 - (2023.02 ~) KT Aivle School AI Track 3기 (진행 중)
 - (2022.09 ~ 2022.12) INFINITT Healthcare Xelis 팀 인턴
 - (2021.12) 2021 산림수종 데이터 온라인 해커톤 참여 은상(3위) 수상
